@@ -1,0 +1,45 @@
+<html>
+<head>
+ <title> APMOSYS-TECHNOLOGY </title>
+<!-
+</head>
+<body>
+
+ <form action="/login" method="post">
+  <div class="login_box">
+<!--  <div class="back_image">-->
+<!--    <img src = "{{url_for('static',filename='images/login.jpg')}}"> -->
+<!--    -->
+<!--  </div>-->
+
+  <div class="img_container" align="center">
+    <img src="{{url_for('static',filename = 'images/aa.jpeg')}}" alt="Avatar" class="avatar" >
+<!--    <h1>APMOSYS TECHNOLOGY</h1>-->
+    <div class = "login_box">
+    <img src ="{{url_for('static',filename = 'images/download.png')}}" class = avatar height = 50px width = 50px >
+  </div>
+  </div>
+
+  <div class="container" align = "center">
+      <h3> {{ error }}</h3>
+    <h2>LOGIN</h2>
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <button type="submit" class="signin_button">SIGN IN</button><br>
+<!--    <label>-->
+<!--      <input type="checkbox" checked="checked" name="remember"> Remember me<br>-->
+<!--    </label>-->
+  </div>
+
+    <div class="container" style="background-color:#f1f1f1" align = "center">
+     <button type="button" class="cancel_btn">Cancel</button>
+     <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </div>
+ </form>
+ </body>
+</html>

@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("login.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: sans_serif;
+
+
+}
+.signin_button{
+height: 10px;
+}
+.login_box{
+width: 320px;
+height: 420px;
+background: #000;
+color: #fff;
+top: 50%;
+left:50%;
+right:50%
+position: absolute;
+transform: translate(-50%,-50%)
+box_sizing: border-box;
+}
+.download{
+width: 100px;
+height: 100px;
+border_radius: 50%
+position: absolute;
+top: -50px;
+
+}
